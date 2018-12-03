@@ -1,0 +1,24 @@
+.footer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(5, 20fr);
+  grid-template-rows: 1fr;
+  max-height: 15vh;
+}
+
+.contactlist {
+  display: inline-block;
+  list-style-type: none;
+  grid-row: 1 / 2;
+}
+
+#verticalContact {
+  transform: rotate(-90deg);
+  /* height: 15vh; */
+  max-width: 15vw;
+  /* grid-column: 1 / 2;
+  grid-row: 1 / 2; */
+  /* transform-origin: left bottom 0; */
+  /* display: inline-block;
+  align-self: flex-end; */
+}
