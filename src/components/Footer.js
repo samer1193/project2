@@ -1,19 +1,23 @@
 import React, { Component } from "react";
 import "../styles/footer.css";
-
 export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
         <div className="contact">
-          <p id="verticalContact">CONTACT US</p>
-          <div>773-999-9933</div>
-          {/* <ul className="contactlist">
-            <li>773-999-9933</li>
-            <li>773-387-7901</li>
-            <li>tsegtslawgroup999@gmail.com</li>
-            <li>3657 W. Lawrence Ave, IL 60625</li>
-          </ul>*/}
+          <span id="verticalContact">CONTACT US</span>
+          <span className="otherContacts"> </span>
+          <span id="otherContacts1">773-999-9933</span>
+          <span className="otherContacts">773-387-7901</span>
+          <span className="otherContacts">tsegtslawgroup.com999@gmail.com</span>
+          <span id="otherContacts2">3657 W. Lawrence Ave, IL 60625</span>
+        </div>
+        <div className="centerLogo">
+          <div className="logoTag">
+            <p id="copyright">
+              &#169; 2019 TSEGTS Law Groudiv P.C. All Rights Reserved
+            </p>
+          </div>
         </div>
       </div>
     );
