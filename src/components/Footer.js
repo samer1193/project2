@@ -15,7 +15,7 @@ export default class Footer extends Component {
         <div className="centerLogo">
           <div className="logoTag">
             <p id="copyright">
-              &#169; 2019 TSEGTS Law Groudiv P.C. All Rights Reserved
+              &#169; 2019 TSEGTS Law Group P.C. All Rights Reserved
             </p>
           </div>
         </div>

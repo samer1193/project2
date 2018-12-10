@@ -1,6 +1,84 @@
 .practiceareas {
   display: grid;
-  grid-template-columns: 40fr 60fr;
+  grid-template-columns: 40% 60%;
+}
+
+@media screen and (max-width: 812px) {
+  .practiceareas .headerPane .headerTxt {
+    font-size: 2.8em;
+  }
+
+  .practiceareas .headerPane .subTextpa {
+    font-size: 1.2em;
+  }
+
+  .practiceareas .areaList {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .practiceareas .headerPane .headerTxt {
+    font-size: 2.1em;
+  }
+  .gavel {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .practiceareas .areaList {
+    font-size: 1.45em;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .practiceareas .areaList {
+    font-size: 1.35em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .practiceareas .headerPane .headerTxt {
+    font-size: 1.9em;
+  }
+  .practiceareas .areaList {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .practiceareas .areaList {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .practiceareas .headerPane .headerTxt {
+    font-size: 1.5em;
+  }
+
+  .practiceareas .headerPane .subTextpa {
+    font-size: 0.8em;
+  }
+
+  .practiceareas .areaList {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .practiceareas .headerPane .headerTxt {
+    font-size: 1.3em;
+  }
+
+  .practiceareas .headerPane .subTextpa {
+    font-size: 0.6em;
+  }
+
+  .practiceareas .areaList {
+    font-size: 0.6em;
+  }
 }
 
 .headerPane {
@@ -41,6 +119,7 @@
 
 .gavel {
   display: inline;
+  /* width: 20%; */
 }
 
 .headerTxt {
